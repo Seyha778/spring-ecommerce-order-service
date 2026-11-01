@@ -46,6 +46,7 @@ public class OrderServiceImpl implements OrderService {
         order.setCustomerName(request.getCustomerName());
         order.setCustomerEmail(request.getCustomerEmail());
         order.setCurrency(request.getCurrency());
+        order.setPaymentId(request.getPaymentId());
 
 //TODO
 //        BigDecimal subtotal = request.items().stream()

@@ -55,4 +55,7 @@ public class OrderCreateRequest {
     @JsonProperty("notes")
     String notes = "";
 
+    @JsonProperty("payment_id")
+    String paymentId = "";
+
 }
